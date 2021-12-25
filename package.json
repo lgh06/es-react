@@ -1,5 +1,5 @@
 {
-  "name": "es-react",
+  "name": "@webest/es-react",
   "version": "16.13.1",
   "description": "An ES6 module exposing the latest version of react and react-dom",
   "module": "index.js",
@@ -11,9 +11,9 @@
     "import",
     "export"
   ],
-  "repository": "https://www.github.com/lukejacksonn/es-react",
+  "repository": "https://www.github.com/lgh06/es-react",
   "bugs": {
-    "url": "https://github.com/lukejacksonn/es-react/issues"
+    "url": "https://github.com/lgh06/es-react/issues"
   },
   "scripts": {
     "build": "rollup -c scripts/rollup.config.js",
@@ -21,7 +21,7 @@
     "prepare-dev": "node ./scripts/write-dev-pkgjson.js",
     "prepublishOnly": "run-s clean build prepare-dev"
   },
-  "author": "@lukejacksonn",
+  "author": "@lgh06",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.2",
