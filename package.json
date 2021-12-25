@@ -1,6 +1,6 @@
 {
   "name": "@webest/es-react",
-  "version": "16.13.1",
+  "version": "0.0.1",
   "description": "An ES6 module exposing the latest version of react and react-dom",
   "module": "index.js",
   "types": "index.d.ts",

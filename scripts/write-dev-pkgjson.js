@@ -17,7 +17,7 @@ const mainPkgJson = require('../package.json');
 
 const contents = JSON.stringify(
   {
-    name: '@es-react/dev',
+    name: '@webest/es-react',
     version: mainPkgJson.version,
     license: mainPkgJson.license,
     private: true,
