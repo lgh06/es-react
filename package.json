@@ -19,7 +19,8 @@
     "build": "rollup -c scripts/rollup.config.js",
     "clean": "rimraf *.js dev",
     "prepare-dev": "node ./scripts/write-dev-pkgjson.js",
-    "prepublishOnly": "run-s clean build prepare-dev"
+    "prepublishOnly": "run-s clean build prepare-dev",
+    "pub": "npx nrm use npm && npm publish --access public"
   },
   "author": "@lgh06",
   "license": "MIT",
